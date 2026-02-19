@@ -142,3 +142,23 @@ def saludar(nombre):
 print(saludar("Alex"))
 
 print("\n=== FIN ===")
+
+
+# Crear una clase
+class Perro:
+    
+    # Constructor (se ejecuta al crear el objeto)
+    def __init__(self, nombre, edad):
+        self.nombre = nombre
+        self.edad = edad
+    
+    # Método
+    def ladrar(self):
+        print("Guau guau!")
+
+# Crear objeto
+mi_perro = Perro("Firulais", 3)
+
+# Usar el objeto
+print(mi_perro.nombre)
+mi_perro.ladrar()
