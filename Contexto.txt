@@ -1,0 +1,22 @@
+# 03/03/2026  La Correlación en python
+# Gráficos de dispersión
+# Diferentes tipos de gráficas, diagramas de dispersión y correlación
+
+# Variable dependiente vs independiente
+# x, y
+# por ejemplo ¿Las horas de estudio influyen en calificacion? si, x, variable independiente es horas, y calificacion es dependiente
+
+# tipos de correlació: Pearson(), spearman(), kendall()
+# Pearson: Correlación lineal. cantidad de dispersión con respecto a la linea, muy sensible
+# Spearman(), si tienden a bajar o subir, basado en rankings, detecta relaciones no lineales per si monotonos (que cambian), no tan sensible
+# como para gráficas tipo exponencial
+
+# como elegir entre pearson y spearman, si es recta usar pearson, si es spearman es exponencial.
+# el unico que maneja rangos es spearman, tipos de datos: rangos, categoricos, 
+# valores atipicos usar spearman
+# los datos siguen una distribución normal? 
+# que se quiere implementar? x, y cambien proporcionalmente
+# estrategia profesional, calcular ambos
+
+
+# SI NO ES LINEAL ES SPEARMAN, SPEARMAN es bueno para outliers
